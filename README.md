@@ -41,3 +41,22 @@ To ensure **factual accuracy** in the generated quizzes, the app performs **two 
 
 1. **Question Generation (QG):**  
    Prompt:  
+→ Produces a question relevant to the provided context.
+
+2. **Question Answering (QA):**  
+Prompt: → Forces the model to produce an accurate, context-grounded answer.
+
+This **Inference Chaining** technique converts the T5-small into a **reliable Q&A engine** while maintaining lightweight CPU-friendly performance.
+
+---
+
+## 💻 Quick Start & Setup
+
+### ✅ Prerequisites
+- Python **3.11+**
+- Internet connection (for first-time model loading if not cached)
+
+### 📦 Install Dependencies
+```bash
+pip install streamlit torch transformers datasets pandas sentencepiece pypdf nltk
+ 
