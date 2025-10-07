@@ -1,0 +1,13 @@
+1. CORE DEEP LEARNING 
+torch
+
+2. HUGGING FACE / NLP STACK
+transformers
+datasets
+sentencepiece
+
+3. UTILITIES AND UI
+streamlit
+pypdf
+nltk
+pandas
