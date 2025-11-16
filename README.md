@@ -1,6 +1,6 @@
-# 🧠 Smart Study Assistant: The AI Content Accelerator
+#  Smart Study Assistant: The AI Content Accelerator
 
-🚀 **Accelerate Learning: From Document to Knowledge in Seconds**
+ **Accelerate Learning: From Document to Knowledge in Seconds**
 
 The **Smart Study Assistant** is a production-ready web application built to solve the challenge of rapid information processing and knowledge extraction from unstructured academic or enterprise documents.  
 It transforms lengthy PDF and TXT files into actionable learning modules using a **fine-tuned Text-to-Text Transfer Transformer (T5)** model, deployed seamlessly on **Streamlit**.
@@ -9,7 +9,7 @@ This project showcases **multi-task NLP deployment**, **inference chaining**, an
 
 ---
 
-## ✨ Core Product Features
+##  Core Product Features
 
 | **Feature** | **User Benefit** | **Technical Driver** |
 |--------------|------------------|----------------------|
@@ -20,11 +20,11 @@ This project showcases **multi-task NLP deployment**, **inference chaining**, an
 
 ---
 
-## 🏗️ Deployment & Architecture
+##  Deployment & Architecture
 
 The application uses a **unified architecture** where a single **T5-small** model performs three distinct NLP tasks — summarization, question generation, and question answering.
 
-### 🧩 Technology Stack
+###  Technology Stack
 
 | **Layer** | **Technology** | **Purpose** |
 |------------|----------------|--------------|
@@ -35,7 +35,7 @@ The application uses a **unified architecture** where a single **T5-small** mode
 
 ---
 
-## ⚡ The QG → QA Chaining Solution (Production Fix)
+##  The QG → QA Chaining Solution (Production Fix)
 
 To ensure **factual accuracy** in the generated quizzes, the app performs **two sequential inference calls** to the same T5 model:
 
@@ -50,13 +50,13 @@ This **Inference Chaining** technique converts the T5-small into a **reliable Q&
 
 ---
 
-## 💻 Quick Start & Setup
+##  Quick Start & Setup
 
-### ✅ Prerequisites
+###  Prerequisites
 - Python **3.11+**
 - Internet connection (for first-time model loading if not cached)
 
-### 📦 Install Dependencies
+###  Install Dependencies
 ```bash
 pip install streamlit torch transformers datasets pandas sentencepiece pypdf nltk
  
